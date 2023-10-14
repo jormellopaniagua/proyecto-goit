@@ -22,9 +22,9 @@
     justify-content: center;
   }
   &__title {
-    display: flex;
+    /*display: flex;*/
     color: $text-color;
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 24px;
     padding-left: 24px;
     padding-right: 24px;
@@ -79,7 +79,9 @@
     border-color: none;
   }
 }
-
+.flavor-title--orange {
+  color: $primary-color;
+}
 .deslizable {
   position: absolute;
   top: 100%;
